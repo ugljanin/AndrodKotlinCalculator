@@ -66,6 +66,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
         Log.d("Rezultat","result $result")
-        rezultat.text = "rezultat = ${result.toString()}"
+        rezultat.text = "Rezultat: ${result.toString()}"
     }
 }
